@@ -1,0 +1,16 @@
+h1{
+    color: rgb(89, 212, 89);
+}
+
+a{
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+p{
+    color:rgb(185, 47, 47);
+}
+
+img{
+    width: 500px;
+}
