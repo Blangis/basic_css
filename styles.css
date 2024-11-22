@@ -14,3 +14,19 @@ p{
 img{
     width: 500px;
 }
+
+#boton{
+    background: rgb(156, 113, 156);
+    padding: 30px;
+    border: 5px solid rgb(0, 119, 128);
+    margin: 10px;
+
+}
+
+.select{
+    background: black;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    border: 5px solid rgb(114, 11, 11);
+    margin:10px ;
+}
