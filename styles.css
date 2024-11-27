@@ -30,3 +30,47 @@ img{
     border: 5px solid rgb(114, 11, 11);
     margin:10px ;
 }
+
+.card_product{
+    color:rgb(31, 180, 38);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body{
+    background-color: rgb(224, 216, 204);
+}
+
+#precio{
+    color:blueviolet
+}
+
+
+
+li{
+    color: rgb(230, 55, 200) !important;
+}
+
+h1{
+    background-color: aqua;
+}
+
+p{
+    font-size: 10px;
+}
+
+.wrapper-card{
+    color:green;
+    font-family: Arial;
+}
+
+.wrapper-card{
+    color:yellow;
+    font-size:120px;  
+}
+
+.wrapper-card{
+    color:black;
+    font-size: 50px;
+    font-family:'Courier New';
+    
+}
