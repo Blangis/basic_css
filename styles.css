@@ -4,14 +4,19 @@ body{
 
 
 h1{
-    color: rgb(11, 10, 14);
-    text-shadow: 5px 5px 5px rgb(154, 208, 230);
+    position: fixed;
+    top:0;
+    margin: 0 auto;
+    width:100%;
+    background-color: rgb(196, 161, 161);
+    color: rgb(114, 23, 91);
+    text-shadow: 2px 2px 2px rgb(154, 208, 230);
     text-align: center;
 }
 
 .imagen{
     width: 200px;
-    height:200px;
+    
 }
 
 .select{
@@ -19,7 +24,7 @@ h1{
     color: rgb(255, 255, 255);
     border: 5px solid rgb(105, 15, 15);
     margin:10px ;
-    width:80px
+    width:60%;
 
 }
 
@@ -31,11 +36,14 @@ h1{
 .container{
     display:flex;
     gap: 25px;
+    
+    margin-top: 50px;
 }
 
 .description{
-    width:350px;
     text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .product{
@@ -48,4 +56,21 @@ h1{
     align-items: center; 
     background-color: rgb(180, 219, 213);
     border-radius: 15px;
+    width: 20%;
+    z-index: 0;
+    overflow: hidden;
 }
+
+  #info {
+    position: fixed;
+    bottom: 10px; /* Ajusta al fondo */
+    left: 10%;
+    width: 80%;
+    z-index: 1000; /* Mantenerlo visible */
+    background-color: rgb(196, 161, 161);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(105, 15, 15);
+    padding: 10px;
+    text-align: center;
+}
+
